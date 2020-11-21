@@ -2,9 +2,13 @@
 
 echo "Setting up George's Mac..."
 
-# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
+# Setup .zshrc file for $HOME (backup any existing file)
 cp $HOME/.zshrc $HOME/.zshrc.backup
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# GIT setup
+git config --global core.editor 'nano'
+git config --global core.excludesFile '~/.dotfiles/.gitignore_global'
 
 echo "Finished!"
