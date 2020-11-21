@@ -22,7 +22,7 @@ alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias nwatch="npm run watch"
-alias npprod="npm run production"
+alias nprod="npm run production"
 
 # Git
 alias gs="git status"
