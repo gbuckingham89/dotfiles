@@ -58,3 +58,6 @@ export GPG_TTY=`tty`
 
 # Add SSH key into keychain: http://apple.stackexchange.com/questions/254468/macos-sierra-doesn-t-seem-to-remember-ssh-keys-between-reboots
 ssh-add -A 2>/dev/null;
+
+# Paths
+export PATH="$HOME/.composer/vendor/bin:$PATH"
