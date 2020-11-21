@@ -1,0 +1,27 @@
+# OS Generated Files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & Databases #
+####################
+*.log
+*.sql
+*.sqlite
+
+# IDEs & Dev Tools #
+####################
+.idea/
+_ide_helper.php
+.phpstorm.meta.php
+.vscode
+/*.sublime-project
+*.sublime-workspace
+sftp-config.json
+.vagrant/
+.phpunit.result.cache
