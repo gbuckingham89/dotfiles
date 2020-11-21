@@ -42,9 +42,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-# You may need to manually set your language environment
+# Language
 export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8
 
@@ -54,3 +52,9 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='nano'
 fi
+
+# GPG Config: https://gist.github.com/troyfontaine/18c9146295168ee9ca2b30c00bd1b41e
+export GPG_TTY=`tty`
+
+# Add SSH key into keychain: http://apple.stackexchange.com/questions/254468/macos-sierra-doesn-t-seem-to-remember-ssh-keys-between-reboots
+ssh-add -A 2>/dev/null;
