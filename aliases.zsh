@@ -15,7 +15,6 @@ alias hsc='nano ~/Homestead/Homestead.yaml'
 
 # Laravel
 alias art="php artisan"
-alias fresh="php artisan migrate:fresh --seed"
 
 # PHP
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
@@ -30,3 +29,4 @@ alias gs="git status"
 alias gc="git add . && git commit -m"
 alias gp="git push"
 alias gpf="git push --force"
+alias gpl="git pull"
