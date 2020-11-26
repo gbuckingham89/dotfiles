@@ -26,7 +26,12 @@ alias nprod="npm run production"
 
 # Git
 alias gs="git status"
+alias ga="git add ."
 alias gc="git add . && git commit -m"
 alias gp="git push"
 alias gpf="git push --force"
 alias gpl="git pull"
+
+# Deployer
+alias dtest="dep deploy test"
+alias dprod="dep deploy production"
