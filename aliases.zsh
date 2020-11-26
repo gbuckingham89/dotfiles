@@ -16,8 +16,12 @@ alias hsc='nano ~/Homestead/Homestead.yaml'
 # Laravel
 alias art="php artisan"
 
-# PHP
+# Composer
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
+
+# PHPUnit
+alias test="phpunit"
+alias teststop="phpunit --stop-on-error --stop-on-failure"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
