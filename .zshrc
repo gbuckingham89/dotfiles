@@ -43,7 +43,6 @@ ZSH_CUSTOM=$DOTFILES
 source $ZSH/oh-my-zsh.sh
 
 # Language
-export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8
 
 # Preferred editor for local and remote sessions
