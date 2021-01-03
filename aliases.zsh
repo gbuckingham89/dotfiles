@@ -15,6 +15,7 @@ alias hsc='nano ~/Homestead/Homestead.yaml'
 
 # Laravel
 alias art="php artisan"
+alias sail="bash vendor/bin/sail"
 
 # Composer
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
