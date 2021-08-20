@@ -1,9 +1,17 @@
-# Shortcuts
+# System
 alias flushdns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="ls -la"
 
 # App shortcuts
 alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
+
+# PHP versions
+alias usephp70='brew link --overwrite --force php@7.0'
+alias usephp71='brew link --overwrite --force php@7.1'
+alias usephp72='brew link --overwrite --force php@7.2'
+alias usephp73='brew link --overwrite --force php@7.3'
+alias usephp74='brew link --overwrite --force php@7.4'
+alias usephp80='brew link --overwrite --force php@8.0'
 
 # Directories
 alias dotfiles="cd $DOTFILES"
