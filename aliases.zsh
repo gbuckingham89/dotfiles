@@ -28,6 +28,10 @@ alias sail="bash vendor/bin/sail"
 # Composer
 alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
 
+# Pest
+alias testp="./vendor/bin/pest"
+alias p="./vendor/bin/pest"
+
 # PHPUnit
 alias test="phpunit"
 alias teststop="phpunit --stop-on-error --stop-on-failure"
