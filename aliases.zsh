@@ -3,38 +3,24 @@ alias flushdns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias ll="ls -la"
 
 # App shortcuts
-alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
-
-# PHP versions
-alias usephp70='brew link --overwrite --force php@7.0'
-alias usephp71='brew link --overwrite --force php@7.1'
-alias usephp72='brew link --overwrite --force php@7.2'
-alias usephp73='brew link --overwrite --force php@7.3'
-alias usephp74='brew link --overwrite --force php@7.4'
-alias usephp80='brew link --overwrite --force php@8.0'
+alias phpstorm='open -a ~/Applications/JetBrains\ Toolbox/PhpStorm.app "`pwd`"'
 
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias sites="cd $HOME/Sites"
-
-# Homestead
-alias hs='cd ~/Homestead && vagrant'
-alias hsc='nano ~/Homestead/Homestead.yaml'
+alias code="cd ~/Code"
 
 # Laravel
 alias art="php artisan"
-alias sail="bash vendor/bin/sail"
-
-# Composer
-alias composer="php -d memory_limit=-1 /usr/local/bin/composer"
-
-# Pest
-alias testp="./vendor/bin/pest"
-alias p="./vendor/bin/pest"
+alias test="php artisan test"
+alias teststop="php artisan test --stop-on-error --stop-on-failure"
+alias testp="php artisan test --parallel"
 
 # PHPUnit
-alias test="phpunit"
-alias teststop="phpunit --stop-on-error --stop-on-failure"
+alias phpunit="./vendor/bin/phpunit"
+alias phpunitstop="./vendor/bin/phpunit --stop-on-error --stop-on-failure"
+
+# PHPStan
+alias stan="./vendor/bin/phpstan analyse"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"

@@ -38,9 +38,10 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# plugins=(git)
+plugins=(git brew colored-man-pages composer npm)
 
 source $ZSH/oh-my-zsh.sh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Language
 export LANG=en_GB.UTF-8
