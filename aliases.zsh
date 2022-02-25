@@ -11,6 +11,7 @@ alias code="cd ~/Code"
 
 # Laravel
 alias art="php artisan"
+alias mfs="php artisan migrate:fresh --seed"
 alias test="php artisan test"
 alias teststop="php artisan test --stop-on-error --stop-on-failure"
 alias testp="php artisan test --parallel"
@@ -24,8 +25,12 @@ alias stan="./vendor/bin/phpstan analyse"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
+alias nhot="npm run hot"
 alias nwatch="npm run watch"
 alias nprod="npm run production"
+
+# Redis
+alias fr="redis-cli flushall"
 
 # Git
 alias gs="git status"
