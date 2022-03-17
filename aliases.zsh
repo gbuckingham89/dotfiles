@@ -15,6 +15,7 @@ alias mfs="php artisan migrate:fresh --seed"
 alias test="php artisan test"
 alias teststop="php artisan test --stop-on-error --stop-on-failure"
 alias testp="php artisan test --parallel"
+alias ziggy="php artisan ziggy:generate"
 
 # PHPUnit
 alias phpunit="./vendor/bin/phpunit"
