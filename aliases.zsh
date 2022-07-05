@@ -26,6 +26,8 @@ alias stan="./vendor/bin/phpstan analyse"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
+alias ndev="npm run dev"
+alias nbuild="npm run build"
 alias nhot="npm run hot"
 alias nwatch="npm run watch"
 alias nprod="npm run production"
