@@ -11,6 +11,7 @@ alias code="cd ~/Code"
 
 # Laravel
 alias art="php artisan"
+alias horizon="php artisan horizon"
 alias mfs="php artisan migrate:fresh --seed"
 alias test="php artisan test"
 alias teststop="php artisan test --stop-on-error --stop-on-failure"
