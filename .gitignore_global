@@ -19,6 +19,7 @@ Thumbs.db
 .idea/
 _ide_helper.php
 .phpstorm.meta.php
+.fleet
 .vscode
 /*.sublime-project
 *.sublime-workspace
