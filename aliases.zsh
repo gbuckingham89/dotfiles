@@ -12,12 +12,19 @@ alias code="cd ~/Code"
 # Laravel
 alias art="php artisan"
 alias horizon="php artisan horizon"
+alias horizon-watch="php artisan horizon:watch"
 alias mf="php artisan migrate:fresh"
 alias mfs="php artisan migrate:fresh --seed"
 alias test="php artisan test"
 alias teststop="php artisan test --stop-on-error --stop-on-failure"
 alias testp="php artisan test --parallel"
 alias ziggy="php artisan ziggy:generate"
+alias pint="./vendor/bin/pint"
+alias pest="./vendor/bin/pest"
+alias pestp="./vendor/bin/pest --parallel"
+
+# Jigsaw
+alias jigsaw="./vendor/bin/jigsaw"
 
 # PHPUnit
 alias phpunit="./vendor/bin/phpunit"
