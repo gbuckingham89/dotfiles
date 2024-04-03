@@ -1,5 +1,4 @@
-# OS Generated Files #
-######################
+# OS Generated Files
 .DS_Store
 .DS_Store?
 ._*
@@ -8,21 +7,15 @@
 ehthumbs.db
 Thumbs.db
 
-# Logs & Databases #
-####################
-*.log
-*.sql
-*.sqlite
-
-# IDEs & Dev Tools #
-####################
+# IDEs & Dev Tools
 .idea/
 _ide_helper.php
 .phpstorm.meta.php
 .fleet
 .vscode
-/*.sublime-project
+*.sublime-project
 *.sublime-workspace
 sftp-config.json
 .vagrant/
 .phpunit.result.cache
+.phpunit.cache
