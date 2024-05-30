@@ -12,7 +12,7 @@ alias code="cd ~/Code"
 # Laravel
 alias art="php artisan"
 alias horizon="php artisan horizon"
-alias horizon-watch="php artisan horizon:watch"
+alias hw="php artisan horizon:watch"
 alias mf="php artisan migrate:fresh"
 alias mfs="php artisan migrate:fresh --seed"
 alias test="php artisan test"
