@@ -9,12 +9,16 @@ alias phpstorm='open -a ~/Applications/JetBrains\ Toolbox/PhpStorm.app "`pwd`"'
 alias dotfiles="cd $DOTFILES"
 alias code="cd ~/Code"
 
+# MySQL
+alias mysqldump="/Users/Shared/DBngin/mysql/8.2/bin/mysqldump"
+
 # Laravel
 alias art="php artisan"
 alias horizon="php artisan horizon"
 alias hw="php artisan horizon:watch"
 alias mf="php artisan migrate:fresh"
 alias mfs="php artisan migrate:fresh --seed"
+alias mfls="php artisan migrate:fresh && php artisan db:seed --class=LocalSeeder"
 alias test="php artisan test"
 alias teststop="php artisan test --stop-on-error --stop-on-failure"
 alias testp="php artisan test --parallel"
@@ -32,6 +36,10 @@ alias phpunitstop="./vendor/bin/phpunit --stop-on-error --stop-on-failure"
 
 # PHPStan
 alias stan="./vendor/bin/phpstan analyse"
+
+# PHP_CodeSniffer
+alias phpcs="./vendor/bin/phpcs"
+alias phpcbf="./vendor/bin/phpcbf"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
